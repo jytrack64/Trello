@@ -1,0 +1,128 @@
+* {
+  font-family: "SCDream4";
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.addList {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #7488af;
+  cursor: pointer;
+}
+.addList:hover {
+  background-color: #8494b5;
+}
+.addList span {
+  padding: 10px;
+}
+
+.boardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 100%;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  background-color: #ebecf0;
+  color: #172b4d;
+}
+.boardContainer .addCard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  color: #5e6c84;
+  cursor: pointer;
+}
+.boardContainer .addCard:hover {
+  background-color: #d6d8dc;
+  color: #172b4d;
+}
+.boardContainer .addCard span {
+  padding: 10px;
+}
+.boardContainer h3 {
+  margin: 0 0 10px 0;
+}
+.boardContainer textarea {
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 80px;
+  max-height: 160px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.2509803922);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.boardContainer textarea:focus {
+  outline: none;
+}
+
+.textAreaBoxBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.textAreaBoxBtn button {
+  border: none;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #5f779f;
+  color: white;
+  cursor: pointer;
+}
+.textAreaBoxBtn button:hover {
+  background-color: #4c6796;
+}
+.textAreaBoxBtn span {
+  height: 24px;
+  cursor: pointer;
+}
+.textAreaBoxBtn span img {
+  filter: opacity(0.5);
+}
+.textAreaBoxBtn span img:hover {
+  filter: opacity(0.7);
+}
+
+.todoBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 0;
+  list-style: none;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.2509803922);
+  font-size: 14px;
+  cursor: pointer;
+}
+.todoBox span {
+  padding: 10px;
+}
+.todoBox:hover {
+  background-color: #f2f3f7;
+}
+.todoBox:last-child {
+  color: red;
+}/*# sourceMappingURL=Board.css.map */

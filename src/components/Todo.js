@@ -1,9 +1,12 @@
 import React from 'react'
+// import { useSelector } from 'react-redux'
 
-export default function Todo() {
+export default function Todo({ content }) {
+  // let state = useSelector((state) => (state.data));
+
   return (
-    <div style={{width: 280, height: 80, border: "1px solid black"}}>
-      Todo
-    </div>
+    <li className="todoBox">
+      <span>{content}</span>
+    </li>
   )
 }
